@@ -1,9 +1,9 @@
 ittools
 =================================================================================================
 
-ittools has been developed for making new hypermodern python projects a blast!
+Rudimentary, outdated, everywhere else found iteration tools.
 
-It uses the excellent Hypermodern-Python_ project foundation proposed by
+Uses the excellent Hypermodern-Python_ project foundation proposed by
 `Claudio Jolowicz <cj>`_.
 
 .. toctree::

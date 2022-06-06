@@ -23,8 +23,7 @@ class FakeAPI:
 
 @pytest.fixture(scope="session")
 def fake_api():
-    """
-    Yield api inerface when needed.
+    """Yield api inerface when needed.
 
     Scope set to session, to only create once per test session.
 
