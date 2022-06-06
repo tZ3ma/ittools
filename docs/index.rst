@@ -1,7 +1,7 @@
-hpmpy-project
+ittools
 =================================================================================================
 
-hpmpy-project has been developed for making new hypermodern python projects a blast!
+ittools has been developed for making new hypermodern python projects a blast!
 
 It uses the excellent Hypermodern-Python_ project foundation proposed by
 `Claudio Jolowicz <cj>`_.

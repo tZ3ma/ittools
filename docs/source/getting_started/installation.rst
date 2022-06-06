@@ -63,7 +63,7 @@ Use the following guide to fully take advantage of this project template:
 
    .. code-block:: console
 
-      $ git clone https://github.com/tZ3ma/hpmpy-project my-project
+      $ git clone https://github.com/tZ3ma/ittools my-project
 
 5. Change into the new project folder and ctivate the desired `python versions`_
 
@@ -95,15 +95,15 @@ Use the following guide to fully take advantage of this project template:
 
    .. code-block:: console
 
-      $ git grep -lz hpmpy-project | xargs -0 sed -i -e "s/hpmpy-project/MY-PROJECT/g"
-      $ git grep -lz hpmpy_project | xargs -0 sed -i -e "s/hpmpy-project/MY_PROJECT/g"
+      $ git grep -lz ittools | xargs -0 sed -i -e "s/ittools/MY-PROJECT/g"
+      $ git grep -lz ittools | xargs -0 sed -i -e "s/ittools/MY_PROJECT/g"
 
-9. Rename the :file:`src/hpmpy_project` package folder by replacing
+9. Rename the :file:`src/ittools` package folder by replacing
    :code:`MY_PROJECT` below:
 
       .. code-block:: console
 
-         $ mv src/hpmpy_project src/MY_PROJECT
+         $ mv src/ittools src/MY_PROJECT
 
 10. Install your package using poetry:
 
@@ -205,7 +205,7 @@ Development Install of Your Package Created with this Template
 
    .. code-block:: console
 
-      $ git clone https://github.com/tZ3ma/hpmpy-project [hpmpy-project-develop]
+      $ git clone https://github.com/tZ3ma/ittools [ittools-develop]
 
 4. Change to the new local repo folder and activate the desired
    `python versions`_ using pyenv:
@@ -239,7 +239,7 @@ Development Install of Your Package Created with this Template
    .. code:: console
 
       $ poetry run python
-      $ poetry run hpmpy-project
+      $ poetry run ittools
 
 
 User Install of  Your Package Created with this Template
@@ -259,14 +259,14 @@ Latest Stable Version
 ^^^^^^^^^^^^^^^^^^^^^
 .. code-block:: console
 
-   $ pip install hpmpy-project
+   $ pip install ittools
 
 Latest Development Version (potentially unstable)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: console
 
-   $ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ hpmpy-project
+   $ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ ittools
 
 This installs the TestPyPI_ version of :code:`MY-PROJECT` while resolving the dependencies on PyPI_.
 

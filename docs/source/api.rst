@@ -3,7 +3,7 @@
 API
 ===
 
-.. automodule:: hpmpy_project
+.. automodule:: ittools
    :members:
    :show-inheritance:
 
