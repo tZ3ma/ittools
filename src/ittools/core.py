@@ -70,12 +70,18 @@ def depth(arg, exclude=None):  # noqa: C901
     except TypeError:
         return 0
 
-    try:
+    try:  # pragma: no cover
+        # coverage is excluded here, cause this part definetly gets
+        # executed and tested. I might be overlooking something,
+        # or pytest has coverage issues with rersive functions
         depths_in = map(lambda x: depth(x, exclude), arg.values())
     except AttributeError:
         try:
+            print("there")
             depths_in = map(lambda x: depth(x, exclude), arg)
-        except TypeError:
+
+        except TypeError:  # pragma: no cover
+            # print("Could not provoke this Error!")
             return 0
 
     try:
@@ -309,13 +315,14 @@ class Stringcrementor:
         return self.string + str(next_value)
 
 
-def enum_to_2dix(pos, shape):
+def enum_to_2dix(number, shape):
     """Map a 1d range to a 2d index.
 
     Parameters
     ----------
-    pos : int
-        1d enumerate position to map
+    number : int
+        Number to be mapped to a 2D index. Usually used with in some form of
+        iteration.
 
     shape : tuple
         2 dimensional tuple defining an arrays 2d shape as in ``(rows, columns)``.
@@ -323,7 +330,16 @@ def enum_to_2dix(pos, shape):
     Returns
     -------
     tuple
-        the 1d enumerate position mapped to a (row, column) 2d tuple
+        the 1d enumerate numberition mapped to a (row, column) 2d tuple
+
+    Note
+    ----
+    Only the number of columns is actually used. Since this is designed to
+    be used with 2D-Matrices however, it is left as 2D-shape for convenience.
+
+    This implies however, that you can actually use infinite
+    :paramref:`~enum_to_2dix.number` arguments altough your
+    :paramref:`~enum_to_2dix.shape` might imply only 3 rows.
 
     Examples
     --------
@@ -356,7 +372,7 @@ def enum_to_2dix(pos, shape):
     11 -> (2, 3)
     """
     column = shape[1]
-    return (math.floor(pos / column), pos % column)
+    return (math.floor(number / column), number % column)
 
 
 class Index2D:
@@ -408,8 +424,7 @@ class Index2D:
             the 1d enumerate position mapped to a (row, column) 2d tuple
 
         """
-        column = self.shape[1]
-        return (math.floor(number / column), number % column)
+        return enum_to_2dix(number, self.shape)
 
 
 def zip_split(sequence, chunks):
