@@ -7,6 +7,12 @@ repos:
         name: Yaml formatting using prettier
   - repo: local
     hooks:
+      - id: isort
+        name: Sort python imports using isort through poetry.
+        entry: poetry run isort
+        language: system
+        types: [python]
+        args: [-v]
       - id: black
         name: Code formatting using black
         description: Format code using black
@@ -44,12 +50,6 @@ repos:
         language: system
         types: [python]
         args: [--py310-plus]
-      - id: isort
-        name: Sort python imports using isort through poetry.
-        entry: poetry run isort
-        language: system
-        types: [python]
-        args: [-v]
       - id: trailing-whitespace
         name: Trim Trailing Whitespace
         entry: trailing-whitespace-fixer

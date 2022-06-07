@@ -10,6 +10,7 @@ Unittests
 .. toctree::
    :maxdepth: 4
 
+   unittests/test_api
    unittests/test_connectivity
    unittests/test_end2end
    unittests/test_fakeapi
