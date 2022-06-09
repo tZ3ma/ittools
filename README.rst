@@ -1,5 +1,5 @@
 ittools
-====================================================================================================
+=======
 
 |PyPI| |Python Version| |License| |Status|
 
@@ -39,8 +39,8 @@ ittools
    :target: https://ittools.readthedocs.io/
    :alt: Read the documentation at https://ittools.readthedocs.io/
 
-.. |Tests| image:: https://github.com/tZ3ma/ittools/workflows/Tests/badge.svg
-   :target: https://github.com/tZ3ma/ittools/actions?workflow=Tests
+.. |Tests| image:: https://github.com/tZ3ma/ittools/workflows/Tests-and-Coverage/badge.svg
+   :target: https://github.com/tZ3ma/ittools/actions?workflow=Tests-and-Coverage
    :alt: Tests Workflow Status
 
 .. |Safety| image:: https://github.com/tZ3ma/ittools/workflows/Safety/badge.svg

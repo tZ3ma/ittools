@@ -1,5 +1,5 @@
 ittools
-=================================================================================================
+=======
 
 Rudimentary, outdated, everywhere else found iteration tools.
 
