@@ -103,7 +103,9 @@ Please see the `Installation Guide`_ (`Github Repo Link`_) for details.
 Usage
 -----
 
-Please see the `Worklow Reference <Workflow-Guide_>`_ (`Github Repo Link`_) for details.
+Please read the `API Documentation <API-Documentation_>`_ for usage and the 
+`Worklow Reference <Workflow-Guide_>`_ (`Github Repo Link`_) for taking full
+advantage of this project foundation (Nox_ and Poetry_ usage in particular).
 
 
 Contributing
@@ -149,3 +151,7 @@ Hypermodern-Python_ project foundation proposed by `Claudio Jolowicz <cj>`_.
 .. _Workflow-Guide: docs/source/developer_guide/workflows.rst
 
 .. _Github Repo Link: https://github.com/tZ3ma/ittools
+.. _API-Documentation: https://ittools.readthedocs.io/en/latest/source/api/core.html
+.. _Poetry: https://python-poetry.org/
+.. _Nox: https://nox.thea.codes/
+

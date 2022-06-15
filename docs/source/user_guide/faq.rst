@@ -14,4 +14,4 @@ All core functionalities are known to the toplevel ittools package.
 Meaning they can be used like::
 
   import ittools
-  ittools.depth([1])      
+  ittools.depth([1])

@@ -14,6 +14,6 @@ First Copy-Paste
 ----------------
 
 .. code::
-   
+
    import ittools
-   dutils.depth([1])      
+   dutils.depth([1])
