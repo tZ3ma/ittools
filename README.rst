@@ -92,7 +92,7 @@ ittools
    :alt: Package uses flake8
 
 
-Rudimentary, outdated, everywhere else found iteration tools.
+**IT**\ eration **TOOLS**\ . Rudimentary, outdated, everywhere else found.
 
 Installation
 ------------
