@@ -33,7 +33,7 @@ print(sys.path)
 
 # -- Project information -----------------------------------------------------
 
-project = "ittools - Hypermodern Python Project Template"
+project = "ittools - Rudimentary, outdated, everywhere else found iteration tools"
 author = "Mathias Ammon"
 copyright = f"2022, {author}"  # pylint: disable=redefined-builtin
 

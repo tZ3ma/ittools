@@ -1,16 +1,9 @@
 # tests/test_api.py
-"""Test module to check if the obfuscated core import is working."""
-import types
-
+"""Test core API."""
 import pytest
 from pandas import Series
 
 import ittools
-
-
-def test_succesful_import():
-    """Test for correct core import (cheesy)."""
-    assert isinstance(ittools.group, types.FunctionType)
 
 
 # -------------- ittools.depth ------------------

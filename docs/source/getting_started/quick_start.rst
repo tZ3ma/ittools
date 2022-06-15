@@ -9,3 +9,11 @@ Everything should be copy-pastable and work out of the box, given your
 
 .. contents::
    :local:
+
+First Copy-Paste
+----------------
+
+.. code::
+   
+   import ittools
+   dutils.depth([1])      
