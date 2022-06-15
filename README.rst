@@ -103,7 +103,7 @@ Please see the `Installation Guide`_ (`Github Repo Link`_) for details.
 Usage
 -----
 
-Please read the `API Documentation <API-Documentation_>`_ for usage and the 
+Please read the `API Documentation <API-Documentation_>`_ for usage and the
 `Worklow Reference <Workflow-Guide_>`_ (`Github Repo Link`_) for taking full
 advantage of this project foundation (Nox_ and Poetry_ usage in particular).
 
@@ -154,4 +154,3 @@ Hypermodern-Python_ project foundation proposed by `Claudio Jolowicz <cj>`_.
 .. _API-Documentation: https://ittools.readthedocs.io/en/latest/source/api/core.html
 .. _Poetry: https://python-poetry.org/
 .. _Nox: https://nox.thea.codes/
-
