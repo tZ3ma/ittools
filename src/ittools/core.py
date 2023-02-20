@@ -1,3 +1,4 @@
+# src/ittools/core.py
 """A colletion of iterable utilites.
 
 Used to grow on the fly. Aims to provide general purpose abstract
@@ -77,7 +78,6 @@ def depth(arg, exclude=None):  # noqa: C901
         depths_in = map(lambda x: depth(x, exclude), arg.values())
     except AttributeError:
         try:
-            print("there")
             depths_in = map(lambda x: depth(x, exclude), arg)
 
         except TypeError:  # pragma: no cover

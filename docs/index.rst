@@ -1,7 +1,7 @@
 ittools
 =======
 
-Rudimentary, outdated, everywhere else found iteration tools.
+**IT**\ eration **TOOLS**\ . Rudimentary, outdated, everywhere else found.
 
 Uses the excellent Hypermodern-Python_ project foundation proposed by
 `Claudio Jolowicz <cj>`_.
